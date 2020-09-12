@@ -1,0 +1,93 @@
+body
+{
+  background-color: black;
+  font-family: calibri;
+  color: white;
+}
+#navbar {
+  background-color: red;
+  position: absolute;
+  top: 0;
+  left:0;
+  width: 100%;
+  display: block;
+  transition: top 0.3s;
+  z-index:3;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  text-align: center;
+  margin: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 24px;
+  color: black;
+  transition: 0.1s;
+}
+
+#navbar a:hover {
+  color: #ddd;
+}
+
+#icons
+{
+  right:0;
+}
+#page{
+  display:block;
+}
+h1{
+  color:white;
+  position: absolute;
+  z-index:3;
+  text-align: center;
+  width: 100%;
+  top:47%;
+  font-size: 100px;
+  transition: 0.5s;
+  margin: 0;
+}
+#img1
+{
+  position: absolute;
+  opacity:0;
+  top:0;
+  left:0;
+  z-index: 2;
+  width:100%;
+  transition: 0.5s;
+}
+
+
+#intro{
+  position: absloute;
+  width:60%;
+  transition:0.5s;
+}
+#line{
+  position: absolute;
+  background-color: red;
+  height: 25px;
+  transition:0.5s;
+}
+#data{
+  /*background-color: blue;*/
+  position: absolute;
+  opacity:0;
+  float: left;
+  width: 40%;
+  margin-left: 30%;
+  padding: 5px;
+  transition: 0.5s;
+}
+table{
+  float: left;
+  width: auto;
+  font-size: 25px;
+
+}
+table tr{
+  padding: 15px;
+}
